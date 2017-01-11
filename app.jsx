@@ -1,8 +1,8 @@
 import React, {Component, PropTypes} from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header.jsx';
-import About from './About.jsx';
-import Match from './Match.jsx';
+import Home from './Home.jsx';
+import Page1 from './Page1.jsx';
+import Page2 from './Page2.jsx';
 import { Router, Route, browserHistory, Link } from 'react-router';
 
 // Declarative route configuration (could also load this config lazily
@@ -11,9 +11,9 @@ import { Router, Route, browserHistory, Link } from 'react-router';
 
 ReactDOM.render((
   <Router history={browserHistory}>
-    <Route path="/" component={Header}>
-      <Route path="about" component={About}/>
-      <Route path="*" component={Match}/>
-    </Route> 
+    <Route path="/" component={Home}>
+      <Route path="page1" component={Page1}/>
+      <Route path="page2" component={Page2}/>
+    </Route>
 </Router>
 ), document.getElementById('root'))
