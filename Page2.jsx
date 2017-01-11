@@ -4,22 +4,7 @@ import { Router, Route, browserHistory, Link } from 'react-router';
 export default class Page2 extends Component {
     render() {
         return (
-            <div className="app">
-                <header>
-                    <nav className="navbar navbar-inverse">
-                      <div className="container-fluid">
-                        <div className="navbar-header">
-                          <a className="navbar-brand" href="#">WebSiteName</a>
-                        </div>
-                        <ul className="nav navbar-nav">
-                          <li><Link to="/">Home</Link></li>
-                          <li><Link to="/page1">Page1</Link></li>
-                          <li className="active"><Link to="/page2">Page2</Link></li>
-                        </ul>
-                      </div>
-                    </nav>
-                </header>
-            </div>
+              <h1>Page2</h1>
         );
     }
 }
