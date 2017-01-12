@@ -16,7 +16,7 @@ var dependencies = [
 
 
 gulp.task('build', function () {
-    return browserify({entries: './app.jsx', extensions: ['.jsx'], debug: true})
+    return browserify({entries: './app/jsx/app.jsx', extensions: ['.jsx'], debug: true})
         .transform('babelify', {presets: ['es2015', 'react']})
         .bundle()
         .pipe(source('bundle.js'))

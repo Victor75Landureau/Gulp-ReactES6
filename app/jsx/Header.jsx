@@ -5,10 +5,10 @@ export default class Header extends Component {
     render() {
         return (
                  <header>
-                    <nav className="navbar navbar-inverse">
+                    <nav className="navbar navbar-inverse navbar-fixed-top">
                       <div className="container-fluid">
                         <div className="navbar-header">
-                          <a className="navbar-brand" href="#">WebSiteName</a>
+                          <a className="navbar-brand" href="#">ReactApp</a>
                         </div>
                         <ul className="nav navbar-nav">
                           <li className="active"><Link to="/">Home</Link></li>
@@ -22,4 +22,3 @@ export default class Header extends Component {
         );
     }
 }
-
