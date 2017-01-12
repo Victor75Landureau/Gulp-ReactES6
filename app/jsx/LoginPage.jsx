@@ -4,19 +4,21 @@ import { Router, Route, browserHistory, Link } from 'react-router';
 export default class LoginPage extends Component {
     render() {
         return (
-            <div>
-                <h2 className="page-header"> Account Login </h2>
-                <form method="post" action="/users/login">
-                  <div className="form-group">
-                    <label>Username</label>
-                    <input type="text" className="form-control" name="username" placeholder="Username" />
-                  </div>
-                  <div className="form-group">
-                    <label>Password</label>
-                    <input type="password" className="form-control" name="password" placeholder="Password" />
-                  </div>
-                  <button type="submit" className="btn btn-default">Submit</button>
-                </form>
+            <div className="container">
+
+              <form className="form-signin">
+                <label for="inputEmail" className="sr-only">Email address</label>
+                <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus />
+                <label for="inputPassword" className="sr-only">Password</label>
+                <input type="password" id="inputPassword" className="form-control" placeholder="Password" required />
+                <div className="checkbox">
+                  <label>
+                    <input type="checkbox" value="remember-me"/> Remember me
+                  </label>
+                </div>
+                <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              </form>
+
             </div>
         );
     }
