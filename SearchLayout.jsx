@@ -6,6 +6,7 @@ export default class SearchLayout extends Component {
         return (
               <div className="search">
                 <header className="search-header"></header>
+                <h1>SearchLayout</h1>
                 <div className="results">
                   {this.props.children}
                 </div>
