@@ -4,6 +4,7 @@ import MainLayout from './MainLayout.jsx';
 import Home from './Home.jsx';
 import Page1 from './Page1.jsx';
 import Page2 from './Page2.jsx';
+import Music from './Music.jsx';
 import Login from './LoginPage.jsx';
 import SearchLayout from './SearchLayout.jsx';
 import { Router, Route, browserHistory, Link } from 'react-router';
@@ -19,6 +20,7 @@ ReactDOM.render((
       <Route component={SearchLayout}>
         <Route path="page1" component={Page1} />
         <Route path="page2" component={Page2} />
+        <Route path="music" component={Music} />
         <Route path="login" component={Login} />
       </Route>
     </Route>
