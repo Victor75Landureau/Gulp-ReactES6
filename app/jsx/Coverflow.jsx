@@ -12,7 +12,8 @@ export default class CoverFlow extends Component {
         return (
          <Coverflow
             width={1280}
-            height={450}
+            height={500}
+            enableScroll={false}
             displayQuantityOfSide={2}
             navigation={true}
             enableHeading={true}

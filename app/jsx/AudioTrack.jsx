@@ -7,7 +7,7 @@ export default class AudioTrack extends Component {
 
     render() {
         return (
-            <AudioPlayer playlist={Playlist} autoplay={true} hideBackSkip={false} style={{ position: 'fixed', bottom: 0 }} />
+            <AudioPlayer playlist={Playlist} autoplay={false} hideBackSkip={false} style={{ position: 'fixed', bottom: 0 }} />
         );
     }
 }

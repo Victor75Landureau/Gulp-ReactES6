@@ -9,9 +9,14 @@ export default class FooterBis extends Component {
                     <p className="float-right">
                         <a href="#">Back to top</a>
                     </p>
-                <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-                <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-              </div>
+                    <p className="copyright">&copy; 2017 Victor Landureau</p>
+                        <ul className="pull-right">
+                            <li><a href="#"><i className="fa fa-facebook-square fa-2x"></i></a></li>
+                            <li><a href="#"><i className="fa fa-github fa-2x"></i></a></li>
+                            <li><a href="#"><i className="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.google.fr"><i className="fa fa-google fa-2x"></i></a></li>
+                        </ul>
+                </div>
             </footer>
         );
     }

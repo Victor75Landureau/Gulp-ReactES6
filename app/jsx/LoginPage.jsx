@@ -4,9 +4,9 @@ import { Router, Route, browserHistory, Link } from 'react-router';
 export default class LoginPage extends Component {
     render() {
         return (
-            <div className="container">
-
+            <div>
               <form className="form-signin">
+              <h2 className="form-signin-heading">Identifiez-vous   <i className="fa fa-sign-in"></i></h2>
                 <label for="inputEmail" className="sr-only">Email address</label>
                 <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus />
                 <label for="inputPassword" className="sr-only">Password</label>
@@ -18,7 +18,6 @@ export default class LoginPage extends Component {
                 </div>
                 <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
               </form>
-
             </div>
         );
     }

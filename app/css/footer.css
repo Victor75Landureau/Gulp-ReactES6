@@ -1,4 +1,11 @@
-#footer li {
-    display:inline;
-    padding: 10px 40px;
-    }
+ul.pull-right li {
+    display: inline-block;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+}
