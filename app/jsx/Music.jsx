@@ -3,7 +3,6 @@ import { Router, Route, browserHistory, Link } from 'react-router';
 import Coverflow from './Coverflow.jsx';
 import JumboMessage from './JumboMessage.jsx';
 
-
 export default class Music extends Component {
     render() {
         return (

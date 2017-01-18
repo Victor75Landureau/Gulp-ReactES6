@@ -1,12 +1,13 @@
 import React, {Component, PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import Coverflow from 'react-coverflow';
+import AudioTrack from './AudioTrack.jsx';
 
 var fn = function () {
   /* do you want */
 }
 
-export default class Footer extends Component {
+export default class CoverFlow extends Component {
     render() {
         return (
          <Coverflow
