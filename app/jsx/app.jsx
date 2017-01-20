@@ -2,10 +2,11 @@ import React, {Component, PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import MainLayout from './MainLayout.jsx';
 import Home from './Home.jsx';
-import Page1 from './Page1.jsx';
+import Contact from './ContactPage.jsx';
 import Page2 from './Page2.jsx';
 import Music from './Music.jsx';
 import Login from './LoginPage.jsx';
+import Signup from './SignUp.jsx';
 import SearchLayout from './SearchLayout.jsx';
 import { Router, Route, browserHistory, Link } from 'react-router';
 
@@ -18,10 +19,11 @@ ReactDOM.render((
     <Route component={MainLayout}>
       <Route path="/" component={Home} />
       <Route component={SearchLayout}>
-        <Route path="page1" component={Page1} />
         <Route path="page2" component={Page2} />
         <Route path="music" component={Music} />
+        <Route path="contact" component={Contact} />
         <Route path="login" component={Login} />
+        <Route path="Signup" component={Signup} />
       </Route>
     </Route>
   </Router>

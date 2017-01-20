@@ -34,6 +34,15 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
+img .jumbo-image-hero{
+    margin-top: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -1603,7 +1612,23 @@ pre code {
     width: 1170px;
   }
 }
+
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
 .container-fluid {
+  height: 40px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
