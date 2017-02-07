@@ -8,10 +8,10 @@ export default class Header extends Component {
                     <nav className="navbar navbar-inverse navbar-fixed-top">
                       <div className="container-fluid">
                         <ul className="nav navbar-nav pull-left">
-                           <li><img display="block" alt="Logo" height="40" width="40" src="app/images/react-logo.png"/></li>
+                           <li><img alt="Logo" height="40" width="40" src="app/images/react-logo.png"/></li>
                            <li><a href="#">ReactApp</a></li>
                            <li><Link to="/">Home</Link></li>
-                           <li><Link to="/page2">Page2</Link></li>
+                           <li><Link to="/image">Images</Link></li>
                            <li><Link to="/music">Music</Link></li>
                            <li><Link to="/contact">Contact Us</Link></li>
                            <li><Link to="/login">Login</Link></li>
@@ -27,4 +27,3 @@ export default class Header extends Component {
         );
     }
 }
-

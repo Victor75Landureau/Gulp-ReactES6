@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import MainLayout from './MainLayout.jsx';
 import Home from './Home.jsx';
 import Contact from './ContactPage.jsx';
-import Page2 from './Page2.jsx';
+import ImagePage from './ImagePage.jsx';
 import Music from './Music.jsx';
 import Login from './LoginPage.jsx';
 import Signup from './SignUp.jsx';
@@ -19,7 +19,7 @@ ReactDOM.render((
     <Route component={MainLayout}>
       <Route path="/" component={Home} />
       <Route component={SearchLayout}>
-        <Route path="page2" component={Page2} />
+        <Route path="image" component={ImagePage} />
         <Route path="music" component={Music} />
         <Route path="contact" component={Contact} />
         <Route path="login" component={Login} />
