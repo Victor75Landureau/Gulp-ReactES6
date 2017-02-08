@@ -13,7 +13,7 @@ export default class CoverFlow extends Component {
          <Coverflow
             width={1280}
             height={500}
-            enableScroll={false}
+            enableScroll={true}
             displayQuantityOfSide={2}
             navigation={true}
             enableHeading={true}
@@ -33,7 +33,6 @@ export default class CoverFlow extends Component {
             <img src='app/images/album-13.jpeg' alt='Album13' />
             <img src='app/images/album-14.jpeg' alt='Album14' />
             <img src='app/images/album-15.jpeg' alt='Album15' />
-            <img src='app/images/album-16.jpeg' alt='Album16' />
          </Coverflow>
         );
     }
